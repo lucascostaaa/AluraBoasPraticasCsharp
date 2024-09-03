@@ -9,12 +9,12 @@ using Alura.Adopet.Console.Modelos;
 
 namespace Alura.Adopet.Console.Servicos
 {
-    internal class HttpClientPet
+    public class HttpClientPet
     {
         HttpClient client;
-        public HttpClientPet()
+        public HttpClientPet(string uri = "http://localhost:5057")
         {
-            client = ConfiguraHttpClient("http://localhost:5057");
+            client = ConfiguraHttpClient(uri);
         }
 
         HttpClient ConfiguraHttpClient(string url)
@@ -30,6 +30,12 @@ namespace Alura.Adopet.Console.Servicos
         public Task CreatePetAsync(Pet pet)
         {
             return client.PostAsJsonAsync("pet/add", pet);
+        }
+
+        public async Task<IEnumerable<Pet>?> ListPetsAsync()
+        {
+            HttpResponseMessage response = await client.GetAsync("pet/list");
+            return await response.Content.ReadFromJsonAsync<IEnumerable<Pet>>();
         }
     }
 }

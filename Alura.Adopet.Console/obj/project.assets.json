@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\negao\\BoasPraticasCsharp\\Alura.Adopet.Console\\Alura.Adopet.Console.csproj",
+      "projectUniqueName": "C:\\Users\\negao\\AluraBoasPraticasCsharp\\Alura.Adopet.Console\\Alura.Adopet.Console.csproj",
       "projectName": "Alura.Adopet.Console",
-      "projectPath": "C:\\Users\\negao\\BoasPraticasCsharp\\Alura.Adopet.Console\\Alura.Adopet.Console.csproj",
+      "projectPath": "C:\\Users\\negao\\AluraBoasPraticasCsharp\\Alura.Adopet.Console\\Alura.Adopet.Console.csproj",
       "packagesPath": "C:\\Users\\negao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\negao\\BoasPraticasCsharp\\Alura.Adopet.Console\\obj\\",
+      "outputPath": "C:\\Users\\negao\\AluraBoasPraticasCsharp\\Alura.Adopet.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\negao\\AppData\\Roaming\\NuGet\\NuGet.Config",
