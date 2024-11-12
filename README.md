@@ -2,16 +2,6 @@
 
 Este repositório contém o código desenvolvido durante o curso de Boas Práticas em C# da Alura. O objetivo deste projeto é aplicar princípios de Clean Code e boas práticas no desenvolvimento de aplicações C#.
 
-## Índice
-
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Como Executar](#como-executar)
-- [Funcionalidades](#funcionalidades)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-
 ## Sobre o Projeto
 
 Este projeto tem como objetivo aplicar as boas práticas e os princípios de código limpo no desenvolvimento de um sistema em C#. Durante o curso, são abordados conceitos como:
